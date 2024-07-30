@@ -62,7 +62,7 @@ function generarNumeroSecreto() {
 }
 
 function condicionesIniciales() {
-    numeroMaximoIntentos = 5;
+    numeroMaximoIntentos = 3;
     intentos = 1;
     acertaste = false;
     asignarTextoElemento('h1', 'Adivinar número!');
